@@ -7,6 +7,10 @@
 .hidden {
   visibility: hidden;
 }
+.description {
+  margin: 1em;
+  color: darkred;
+}
 .container {
   margin: 1em;
   display: flex;
@@ -17,7 +21,7 @@
 #box {
   display: grid;
   padding: 1em;
-  background-color: brown;
+  background-color: #d5b59c;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 130px;
   align-items: center;
@@ -71,7 +75,10 @@
   }
 }
 .outdoor {
-  background-color: linen;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2em;
 }
 #callmom {
   /*margin: 1em 0;*/
